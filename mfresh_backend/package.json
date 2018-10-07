@@ -1,0 +1,30 @@
+{
+  "name": "mfresh_backend",
+  "version": "2.0.0",
+  "description": "node mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://tmooc.cn"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "mfresh"
+  ],
+  "author": "dairenjie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "http": "0.0.0",
+    "mysql": "^2.16.0"
+  }
+}
